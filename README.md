@@ -11,5 +11,8 @@
 - AtomicParsley (To embed thumbnails)
   
 # Note
-Video Ids present in `youtube-dl-archive.txt` would not be downloaded.
-This is to make sure videos are not downloaded multiple times if the script is rerun - since the id of every video that is downloaded will be written to `youtube-dl-archive.txt`
+- Video Ids present in `youtube-dl-archive.txt` would **NOT** be downloaded.
+- By default, this file is kept empty on the first run.
+- As the download progresses the videos Ids are written to `youtube-dl-archive.txt`
+
+This is to make sure videos are not downloaded multiple times if the script is rerun.
