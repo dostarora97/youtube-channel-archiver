@@ -6,6 +6,9 @@
 3. `chmod +x channel-archive.sh`
 4. `./channel-archive.sh`
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dostarora97/youtube-channel-archiver/blob/master/colab/Youtube_Channel_Archiver.ipynb)
+
+
 # Required
 - youtube-dl
 - ffmpeg (for post-download operations)
