@@ -2,7 +2,7 @@
 
 *For Unix Like Systems*  
 
-1. Put the url of channels that are to be archieved in `youtube-dl-channels.txt`   
+1. Put the urls of channels that are to be downloaded in `youtube-dl-channels.txt` line-wise   
 3. `chmod +x channel-archive.sh`
 4. `./channel-archive.sh`
 
