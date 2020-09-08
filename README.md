@@ -7,8 +7,15 @@
 4. `./channel-archive.sh`
 
 # Required
-- ffmpeg/avconv (for post-download operations)
-- AtomicParsley (To embed thumbnails)
+- youtube-dl
+- ffmpeg (for post-download operations)
+- ~~AtomicParsley (To embed thumbnails)~~
+```
+sudo apt update -y
+sudo apt install ffmpeg
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+```
   
 # Note
 - Video Ids present in `youtube-dl-archive.txt` would **NOT** be downloaded.
